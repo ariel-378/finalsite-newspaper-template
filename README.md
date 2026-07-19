@@ -1,13 +1,13 @@
 # Student Newspaper Platform
 
 A framework-free (vanilla HTML/CSS/JS) website for a student newspaper — section
-pages, articles, sports, videos, puzzles/centerspread, search, and an in-app
+pages, articles, sports, videos, puzzles & games, search, and an in-app
 **editor dashboard**. No build step, no dependencies.
 
 ## Highlights
 
 - **Editor dashboard** — create and edit articles, and manage staff, sports, ads,
-  videos, and the centerspread.
+  videos, and the puzzles & games pages.
 - **Editor-managed sections** — add, rename, reorder, and remove sections, and
   choose which section fills each home-page slot. The nav, section pages, home
   page, and search all update automatically.
