@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Student Times</title>
+<meta name="description" content="The student newspaper of Your School. News, features, opinion, sports, and puzzles.">
+<meta property="og:title" content="The Student Times">
+<meta property="og:description" content="The student newspaper of Your School.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Student Times">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<script src="config.js"></script>
+<script src="brand-store.js"></script>
+<script src="brand.js"></script>
+<script src="sections-store.js"></script>
+<script src="nav.js"></script>
+</head>
+<body>
+
+<!-- Breaking news banner -->
+<div class="breaking-banner" id="breaking-banner" role="button" tabindex="0" aria-label="Open breaking news">
+  <span class="tag" aria-hidden="true" data-wl-text="home-breaking-tag">Breaking</span>
+  <span>Breaking news headline goes here — click for details</span>
+</div>
+
+<!-- Breaking news popup -->
+<div class="popup-overlay" id="breaking-popup" role="alertdialog" aria-modal="true" aria-labelledby="breaking-heading" aria-describedby="breaking-desc">
+  <div class="popup">
+    <button class="popup-close" id="popup-close" aria-label="Close breaking news">×</button>
+    <div class="label" data-wl-text="home-breaking-label">Breaking News</div>
+    <h2 id="breaking-heading">Breaking news headline</h2>
+    <p id="breaking-desc">A short summary of the breaking story goes here. Editors can update or remove this.</p>
+    <a href="#" class="popup-cta">Read the story</a>
+  </div>
+</div>
+
+<!-- Top utility bar -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <div>
+      <a href="#" class="topbar-cta">Subscribe</a>
+    </div>
+    <div></div>
+  </div>
+</div>
+
+<!-- Masthead -->
+<div class="masthead">
+  <div class="masthead-ornament left" aria-hidden="true"><img src="media/leaf.svg" alt="" width="60" height="30"></div>
+  <div class="masthead-ornament right" aria-hidden="true"><img src="media/leaf.svg" alt="" width="60" height="30"></div>
+  <h1>The Student Times</h1>
+  <div class="dateline" data-wl-text="home-dateline">YOUR SCHOOL &nbsp;·&nbsp; STUDENT NEWSPAPER</div>
+</div>
+
+<!-- Section nav -->
+<nav class="sectionnav">
+  <div class="sectionnav-inner"></div>
+</nav>
+
+<!-- Main content -->
+<main class="container">
+ <div class="home-layout">
+  <div class="home-main">
+
+    <div class="home-grid">
+      <!-- Lede story (editor-featured article) -->
+      <section class="lede" id="home-lede"></section>
+
+      <!-- Middle column (auto-filled with latest) -->
+      <section id="home-middle"></section>
+
+      <!-- Right column zone — editor-configurable via layout dashboard -->
+      <aside data-zone="right-sidebar"></aside>
+    </div>
+
+    <!-- Full-width zone below the main grid (editor-configurable) -->
+    <div data-zone="below-main"></div>
+
+  </div> <!-- /.home-main -->
+ </div> <!-- /.home-layout -->
+</main>
+
+<footer>
+  © 2026 The Student Times · Your School Student Publication · <a href="staff.html">Staff</a> · <a href="tip.html">Pitch a story</a><br>
+  Online Editor-in-Chief: <a href="mailto:editor@example.org">editor@example.org</a> · Online Managing Editor: <a href="mailto:managing@example.org">managing@example.org</a>
+</footer>
+
+<script src="articles.js"></script>
+<script src="articles-store.js"></script>
+<script src="videos.js"></script>
+<script src="videos-store.js"></script>
+<script src="views-store.js"></script>
+<script src="ads.js"></script>
+<script src="ads-store.js"></script>
+<script src="layout-store.js"></script>
+<script src="home.js"></script>
+<script src="submissions.js"></script>
+<script src="auth.js"></script>
+<script src="script.js"></script>
+<script src="text-editor.js"></script>
+</body>
+</html>

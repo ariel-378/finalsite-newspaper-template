@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sports — The Student Times</title>
+<meta name="description" content="Your School sports — game recaps, schedules, and athlete profiles.">
+<meta property="og:title" content="Sports — The Student Times">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Student Times">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<script src="config.js"></script>
+<script src="brand-store.js"></script>
+<script src="brand.js"></script>
+<script src="sections-store.js"></script>
+<script src="nav.js"></script>
+</head>
+<body>
+
+<div class="topbar"><div class="topbar-inner"><div><a href="#" class="topbar-cta">Subscribe</a></div><div></div></div></div>
+
+<div class="masthead">
+  <div class="masthead-ornament left" aria-hidden="true"><img src="media/leaf.svg" alt="" width="60" height="30"></div>
+  <div class="masthead-ornament right" aria-hidden="true"><img src="media/leaf.svg" alt="" width="60" height="30"></div>
+  <h1><a href="index.html">The Student Times</a></h1>
+  <div class="dateline" data-wl-text="sports-dateline">YOUR SCHOOL</div>
+</div>
+
+<nav class="sectionnav">
+  <div class="sectionnav-inner"></div>
+</nav>
+
+<main class="container">
+  <header class="section-hero">
+    <div class="kicker" data-wl-text="sports-kicker">Game Time</div>
+    <h2>Sports</h2>
+    <div class="section-hero-flourish" aria-hidden="true">
+      <svg viewBox="0 0 160 24" xmlns="http://www.w3.org/2000/svg">
+        <g>
+          <path d="M 30 12 Q 50 12 68 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+          <ellipse cx="40" cy="7" rx="5" ry="2" fill="currentColor" transform="rotate(-25 40 7)"/>
+          <ellipse cx="52" cy="5" rx="5" ry="2" fill="currentColor" transform="rotate(-20 52 5)"/>
+          <ellipse cx="62" cy="7" rx="5" ry="2" fill="currentColor" transform="rotate(-15 62 7)"/>
+          <ellipse cx="40" cy="17" rx="5" ry="2" fill="currentColor" transform="rotate(25 40 17)"/>
+          <ellipse cx="52" cy="19" rx="5" ry="2" fill="currentColor" transform="rotate(20 52 19)"/>
+          <ellipse cx="62" cy="17" rx="5" ry="2" fill="currentColor" transform="rotate(15 62 17)"/>
+        </g>
+        <circle cx="80" cy="12" r="3" fill="currentColor"/>
+        <g transform="translate(160, 0) scale(-1, 1)">
+          <path d="M 30 12 Q 50 12 68 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+          <ellipse cx="40" cy="7" rx="5" ry="2" fill="currentColor" transform="rotate(-25 40 7)"/>
+          <ellipse cx="52" cy="5" rx="5" ry="2" fill="currentColor" transform="rotate(-20 52 5)"/>
+          <ellipse cx="62" cy="7" rx="5" ry="2" fill="currentColor" transform="rotate(-15 62 7)"/>
+          <ellipse cx="40" cy="17" rx="5" ry="2" fill="currentColor" transform="rotate(25 40 17)"/>
+          <ellipse cx="52" cy="19" rx="5" ry="2" fill="currentColor" transform="rotate(20 52 19)"/>
+          <ellipse cx="62" cy="17" rx="5" ry="2" fill="currentColor" transform="rotate(15 62 17)"/>
+        </g>
+      </svg>
+    </div>
+  </header>
+
+  <div data-move-group="sports-sections">
+    <!-- Game of the Week -->
+    <div class="wl-row">
+      <section class="game-of-week" id="game-of-week" data-move-key="game-of-week" data-move-label="Game of the Week" hidden></section>
+    </div>
+
+    <!-- Teams & records -->
+    <div class="wl-row">
+      <section class="sports-subsection" data-move-key="teams" data-move-label="Teams">
+        <div class="sports-sub-head">
+          <h3>Teams</h3>
+          <a href="brackets.html" class="sports-more-link">View playoff brackets →</a>
+        </div>
+        <div class="teams-grid" id="teams-grid"></div>
+      </section>
+    </div>
+
+    <div class="wl-row">
+      <div class="article-list" id="article-list" data-section="Sports" data-move-key="articles" data-move-label="Articles"></div>
+      <div class="sidebar-ads ad-block" data-move-key="ad-1" data-move-label="Ad 1" data-ads-offset="0" data-ads-limit="1"></div>
+    </div>
+    <div class="wl-row">
+      <div class="sidebar-ads ad-block" data-move-key="ad-2" data-move-label="Ad 2" data-ads-offset="1" data-ads-limit="1"></div>
+      <div class="sidebar-ads ad-block" data-move-key="ad-3" data-move-label="Ad 3" data-ads-offset="2" data-ads-limit="1"></div>
+    </div>
+  </div>
+</main>
+
+<footer>© 2026 The Student Times · Your School Student Publication · <a href="staff.html">Staff</a> · <a href="tip.html">Pitch a story</a><br>Online Editor-in-Chief: <a href="mailto:editor@example.org">editor@example.org</a> · Online Managing Editor: <a href="mailto:managing@example.org">managing@example.org</a></footer>
+<script src="articles.js"></script>
+<script src="articles-store.js"></script>
+<script src="section.js"></script>
+<script src="teams.js"></script>
+<script src="teams-store.js"></script>
+<script src="sports.js"></script>
+<script src="ads.js"></script>
+<script src="ads-store.js"></script>
+<script src="submissions.js"></script>
+<script src="auth.js"></script>
+<script src="script.js"></script>
+<script src="text-editor.js"></script>
+<script src="layout-editor.js"></script>
+</body>
+</html>
