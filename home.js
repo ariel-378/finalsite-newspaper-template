@@ -140,7 +140,7 @@
       <div class="kicker">${escapeHtml(a.section)}</div>
       <h2><a href="article.html?id=${encodeURIComponent(a.id)}">${escapeHtml(a.title)}</a></h2>
       <p class="summary">${escapeHtml(a.deck)}</p>
-      <div class="byline">By ${escapeHtml(a.byline)}${role}</div>
+      <div class="byline">By ${window.WL_bylineTagsHtml ? WL_bylineTagsHtml(a) : escapeHtml(a.byline)}${role}</div>
     `;
   }
 
@@ -214,7 +214,7 @@
         <div class="kicker">Interview</div>
         <h3>${escapeHtml(featured.title)}</h3>
         ${featured.description ? `<p>${escapeHtml(featured.description)}</p>` : ""}
-        <div class="byline">By ${escapeHtml(featured.byline)} · ${escapeHtml(featured.date)}</div>
+        <div class="byline">By ${window.WL_bylineTagsHtml ? WL_bylineTagsHtml(featured) : escapeHtml(featured.byline)} · ${escapeHtml(featured.date)}</div>
       </div>
     `;
   }

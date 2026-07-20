@@ -80,7 +80,7 @@
         <div class="kicker">${escapeHtml(a.section)}</div>
         <h3><a href="article.html?id=${encodeURIComponent(a.id)}">${highlight(a.title, q)}</a></h3>
         <p>${highlight(a.deck, q)}</p>
-        <div class="byline">By ${highlight(a.byline, q)} · ${escapeHtml(a.date)}</div>
+        <div class="byline">By ${window.WL_bylineTagsHtml ? WL_bylineTagsHtml(a) : highlight(a.byline, q)} · ${escapeHtml(a.date)}</div>
       </article>
     `).join("");
   }
