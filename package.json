@@ -1,0 +1,13 @@
+{
+  "name": "newspaper-template",
+  "private": true,
+  "type": "module",
+  "description": "Reusable student newspaper site template. No build step; jsdom is used only to run the tests.",
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "serve": "python3 serve.py"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  }
+}
