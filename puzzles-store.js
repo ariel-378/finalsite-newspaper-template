@@ -42,10 +42,10 @@ window.WLPuzzles = (function () {
   // category label and a difficulty color (yellow easiest → purple hardest).
   const DEFAULT_CONNECTIONS = [{
     groups: [
-      { difficulty: "yellow", category: "Student Times sections", words: ["NEWS", "FEATURES", "STYLE", "SPORTS"] },
-      { difficulty: "green",  category: "Parts of a frog",         words: ["LEG", "EYE", "TONGUE", "TOE"] },
-      { difficulty: "blue",   category: "Shades of green",         words: ["MOSS", "OLIVE", "EMERALD", "LIME"] },
-      { difficulty: "purple", category: "___ leaf",                words: ["MAPLE", "TEA", "GOLD", "BAY"] }
+      { difficulty: "yellow", category: "Sections of this paper", words: ["NEWS", "FEATURES", "STYLE", "SPORTS"] },
+      { difficulty: "green",  category: "Things in a science lab", words: ["BEAKER", "BURNER", "SCALE", "GOGGLES"] },
+      { difficulty: "blue",   category: "Heard in a hallway",      words: ["BELL", "LOCKER", "PASS", "SNEAKER"] },
+      { difficulty: "purple", category: "School ___",              words: ["BUS", "SPIRIT", "NIGHT", "PAPER"] }
     ]
   }];
 

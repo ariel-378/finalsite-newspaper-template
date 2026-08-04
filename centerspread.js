@@ -8,44 +8,60 @@
 //  `reveal: { summary, answer }` — a "reveal the answer" toggle.
 //  For poem/prose `body`: a blank line separates stanzas/paragraphs; a single
 //  newline separates lines within a stanza.
+//
+//  Sample content for the demo site: invented pieces from the invented East
+//  High School. Set `pieces: []` to start clean, or replace them one at a time
+//  from the Centerspread tab.
 // ============================================================================
 window.WL_CENTERSPREAD = {
   pieces: [
     {
-      id: "sample-poem",
+      id: "last-bell-poem",
       type: "poem",
       kicker: "Poem",
-      title: "A Sample Spring Poem",
-      byline: "By A Student Poet",
+      title: "Last Bell, Late May",
+      byline: "By Ines Delacroix",
       body:
-        "Replace this with a poem from your print edition.\n" +
-        "Each line sits on its own line here,\n" +
-        "and a blank line starts a new stanza.\n" +
+        "The hallway holds its breath for one more hour,\n" +
+        "the lockers half-emptied, half-believing\n" +
+        "we will be back on Monday, and the Monday after that.\n" +
         "\n" +
-        "Delete this sample from the Centerspread tab,\n" +
-        "or edit it into something of your own.",
+        "Someone has written a name in the fogged glass\n" +
+        "of the door to the stairwell. It will be gone\n" +
+        "by the time the janitor comes through at six.\n" +
+        "\n" +
+        "Outside, the buses idle in their long yellow sentence.\n" +
+        "Inside, a clock that has been wrong since October\n" +
+        "is finally, briefly, right.",
     },
     {
-      id: "sample-guess",
+      id: "guess-the-teacher",
       type: "prose",
       kicker: "Guess Who",
-      title: "A Sample Mystery",
+      title: "A Day in the Life of a Mystery Teacher",
       byline: "By The Editors",
       body:
-        "Prose pieces read as normal paragraphs. Use this for a “guess the teacher” write-up, a short essay, or any print piece that isn't a poem.\n" +
+        "They arrive at 6:50 a.m., which is earlier than the building wants anyone to arrive, and they make the coffee that the rest of the department pretends not to depend on. Their classroom has forty-one plants. They have named eleven of them.\n" +
         "\n" +
-        "Turn on the reveal toggle to hide an answer behind a click, like this one.",
-      reveal: { summary: "Reveal the answer", answer: "This is what appears when a reader clicks to reveal." },
+        "They have taught here for nine years. Before that they were a park ranger, which explains the plants and possibly the whistle. Students report that they have never once raised their voice, and that this is somehow more effective than if they had.\n" +
+        "\n" +
+        "Their most-used phrase, by an enormous margin, is “say more about that.”",
+      reveal: {
+        summary: "Reveal the answer",
+        answer: "Ms. Odom, biology — who would like everyone to know that there are forty-three plants now.",
+      },
     },
     {
-      id: "sample-image",
+      id: "print-edition-linocut",
       type: "image",
       kicker: "From the Print Edition",
-      title: "A Sample Image Piece",
-      byline: "By The Photo Staff",
-      intro: "Use an image piece for a painting, a photo, or a scanned print puzzle — no article needed.",
-      image: "media/riddle-2.png",
-      alt: "A sample image from the print edition",
+      title: "Courtyard, 7:15 p.m.",
+      byline: "By The Art Staff",
+      intro:
+        "An image piece carries a painting, a photo, or a scanned print puzzle on its own — no article attached. " +
+        "This one ran across the middle of the May print edition.",
+      image: "media/art-centerspread-print.svg",
+      alt: "A print-style illustration of the school courtyard at dusk, with the science wing, a tree, and an empty bike rack",
     },
   ],
 
@@ -54,7 +70,7 @@ window.WL_CENTERSPREAD = {
   puzzles: {
     crossword: true,
     spellingbee: true,
-    connections: false,   // disabled in the original; toggle on from the editor
+    connections: true,
     wordsearch: true,
   },
 };

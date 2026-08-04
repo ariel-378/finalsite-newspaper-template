@@ -87,7 +87,7 @@ window.WLPuzzleEditor = (function () {
         <p class="ed-tip">Four groups of four words. Each group gets a category name and a difficulty (yellow = easiest, purple = hardest). Words will be shuffled before the reader sees them.</p>
         <div class="cn-group-edit" data-color="yellow" data-difficulty="yellow">
           <h4 style="margin:14px 0 8px;"><span style="display:inline-block;width:14px;height:14px;background:#f9df6d;margin-right:6px;vertical-align:middle;"></span>Yellow (easiest)</h4>
-          <label>Category <input type="text" data-cn-cat="yellow" placeholder="e.g., Parts of a frog"></label>
+          <label>Category <input type="text" data-cn-cat="yellow" placeholder="e.g., Things in a science lab"></label>
           <label>Four words, separated by commas <input type="text" data-cn-words="yellow" placeholder="LEG, EYE, TONGUE, TOE"></label>
         </div>
         <div class="cn-group-edit" data-color="green" data-difficulty="green">
