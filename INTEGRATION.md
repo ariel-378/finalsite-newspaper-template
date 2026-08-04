@@ -20,8 +20,8 @@ There are two repositories with identical code:
 
 | Repo | Purpose |
 |---|---|
-| `newspaper-template` | The reusable platform. Ships with no content. |
-| `woodley-leaves` (example) | A school's paper. Same code, plus `config.js` and content. |
+| `newspaper-template` | The reusable platform. Ships with sample content you delete. |
+| A school's deployment | The same code, plus that school's `config.js` and content. |
 
 Only `config.js` and the content files differ. A fix in one applies to both.
 

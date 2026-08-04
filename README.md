@@ -4,6 +4,13 @@ A framework-free (vanilla HTML/CSS/JS) website for a student newspaper — secti
 pages, articles, sports, videos, puzzles & games, search, and an in-app
 **editor dashboard**. No build step, no dependencies.
 
+**▶ Live demo: <https://ariel-378.github.io/finalsite-newspaper-template/>**
+
+The demo runs in standalone mode with no host platform behind it, so you can
+open the editor yourself: use the **"Editor preview"** link in the account bar,
+top right. Changes you make are saved to your own browser and visible only to
+you — click **Reset demo data** in the dashboard to put it back.
+
 ## Highlights
 
 - **Editor dashboard** — create and edit articles, and manage staff, sports, ads,
@@ -16,6 +23,17 @@ pages, articles, sports, videos, puzzles & games, search, and an in-app
 - **Host-ready auth** — designed to sit behind a platform such as Finalsite, which
   provides login and decides who is an editor.
 
+## Sample content
+
+The repo ships with a demo newsroom so a fresh copy looks like a working paper
+rather than an empty page: eleven stories, three teams with brackets, two
+videos, four sidebar ads, and flat SVG illustrations standing in for photos.
+
+**All of it is invented** — East High School, The Wildcat Times, every byline,
+every person quoted, every score. None of it refers to a real school or a real
+person. To start clean, empty the objects in `articles.js`, `teams.js`,
+`videos.js` and `ads.js`; each file says so at the top.
+
 ## Tests
 
 ```bash
@@ -23,7 +41,7 @@ npm install   # once — pulls jsdom, the only dependency
 npm test
 ```
 
-471 checks across 11 suites: every page loads clean, every editor control is
+478 checks across 11 suites: every page loads clean, every editor control is
 pressed without throwing, and content added in the editor reaches the reader
 pages. See [tests/README.md](tests/README.md).
 
