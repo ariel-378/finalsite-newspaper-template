@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="A sun rising behind a clock face">
+  <rect width="1200" height="800" fill="#f2ece2"/>
+  <circle cx="600" cy="470" r="250" fill="#f7d8ce"/>
+  <path d="M0 620 H1200 V800 H0 Z" fill="#e4dccf"/>
+  <circle cx="600" cy="430" r="150" fill="#fff" stroke="#121212" stroke-width="10"/>
+  <line x1="600" y1="430" x2="600" y2="330" stroke="#121212" stroke-width="12" stroke-linecap="round"/>
+  <line x1="600" y1="430" x2="672" y2="466" stroke="#d11c22" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="600" cy="430" r="14" fill="#121212"/>
+  <g stroke="#121212" stroke-width="8" stroke-linecap="round">
+    <line x1="600" y1="252" x2="600" y2="228"/>
+    <line x1="778" y1="430" x2="802" y2="430"/>
+    <line x1="422" y1="430" x2="398" y2="430"/>
+  </g>
+  <path d="M120 620 h240 M840 620 h240" stroke="#121212" stroke-width="6" stroke-linecap="round"/>
+</svg>

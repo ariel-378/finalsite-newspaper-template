@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Interlocking gears over a circuit trace">
+  <rect width="1200" height="800" fill="#1d2321"/>
+  <g stroke="#3d4a46" stroke-width="6" fill="none">
+    <path d="M0 180 H300 V320 H520"/>
+    <path d="M1200 240 H900 V420 H700"/>
+    <path d="M0 640 H420 V520"/>
+    <path d="M1200 620 H860 V700 H520"/>
+  </g>
+  <g fill="#3d4a46">
+    <circle cx="300" cy="320" r="12"/><circle cx="900" cy="420" r="12"/>
+    <circle cx="420" cy="520" r="12"/><circle cx="860" cy="700" r="12"/>
+  </g>
+  <g fill="#f2ece2">
+    <path d="M470 250 h60 l14 46 44 -18 42 42 -18 44 46 14 v60 l-46 14 18 44 -42 42 -44 -18 -14 46 h-60 l-14 -46 -44 18 -42 -42 18 -44 -46 -14 v-60 l46 -14 -18 -44 42 -42 44 18 Z"/>
+  </g>
+  <circle cx="500" cy="400" r="62" fill="#1d2321"/>
+  <g fill="#d11c22">
+    <path d="M760 470 h48 l11 37 35 -15 34 34 -15 35 37 11 v48 l-37 11 15 35 -34 34 -35 -15 -11 37 h-48 l-11 -37 -35 15 -34 -34 15 -35 -37 -11 v-48 l37 -11 -15 -35 34 -34 35 15 Z"/>
+  </g>
+  <circle cx="784" cy="554" r="48" fill="#1d2321"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="A ball crossing the goal line on a marked pitch">
+  <rect width="1200" height="800" fill="#5c7d55"/>
+  <g fill="#67885f">
+    <rect x="0" y="0" width="1200" height="100"/>
+    <rect x="0" y="200" width="1200" height="100"/>
+    <rect x="0" y="400" width="1200" height="100"/>
+    <rect x="0" y="600" width="1200" height="100"/>
+  </g>
+  <g stroke="#f2ece2" stroke-width="9" fill="none">
+    <rect x="70" y="150" width="330" height="500"/>
+    <rect x="70" y="270" width="150" height="260"/>
+    <circle cx="900" cy="400" r="170"/>
+    <path d="M900 60 V740"/>
+  </g>
+  <circle cx="470" cy="400" r="76" fill="#f7f5ef" stroke="#121212" stroke-width="8"/>
+  <g fill="#121212">
+    <path d="M470 344 l30 22 -11 35 h-38 l-11 -35 Z"/>
+    <path d="M406 420 l28 20 -10 33 -30 -10 Z"/>
+    <path d="M534 420 l-28 20 10 33 30 -10 Z"/>
+  </g>
+  <path d="M556 400 h150" stroke="#d11c22" stroke-width="10" stroke-linecap="round" stroke-dasharray="4 34"/>
+</svg>

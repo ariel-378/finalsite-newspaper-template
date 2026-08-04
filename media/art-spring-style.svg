@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Layered garments on a rail">
+  <rect width="1200" height="800" fill="#f0e6dc"/>
+  <path d="M120 130 H1080" stroke="#121212" stroke-width="12" stroke-linecap="round"/>
+  <g stroke="#121212" stroke-width="8" fill="none">
+    <path d="M300 130 v40"/><path d="M540 130 v40"/><path d="M780 130 v40"/><path d="M960 130 v40"/>
+  </g>
+  <path d="M300 170 l-120 90 40 60 50 -34 v334 h60 v-334 l50 34 40 -60 Z" fill="#d11c22"/>
+  <path d="M540 170 l-110 84 34 56 46 -30 v340 h60 v-340 l46 30 34 -56 Z" fill="#2f4858"/>
+  <path d="M780 190 l-92 70 v390 h184 v-390 Z" fill="#e8c04c"/>
+  <path d="M960 190 l-70 54 v406 h140 v-406 Z" fill="#f7f5ef" stroke="#121212" stroke-width="6"/>
+  <g fill="#121212" opacity="0.16">
+    <rect x="180" y="700" width="240" height="18" rx="9"/>
+    <rect x="440" y="700" width="220" height="18" rx="9"/>
+    <rect x="688" y="700" width="184" height="18" rx="9"/>
+    <rect x="890" y="700" width="140" height="18" rx="9"/>
+  </g>
+</svg>

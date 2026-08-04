@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="A new school building with lit windows">
+  <rect width="1200" height="800" fill="#e8eae6"/>
+  <rect x="150" y="240" width="420" height="420" fill="#fdfdfc" stroke="#121212" stroke-width="10"/>
+  <rect x="600" y="360" width="450" height="300" fill="#f2ece2" stroke="#121212" stroke-width="10"/>
+  <path d="M150 240 L360 120 L570 240 Z" fill="#d11c22"/>
+  <g fill="#cfd6d2">
+    <rect x="200" y="300" width="90" height="90"/>
+    <rect x="320" y="300" width="90" height="90"/>
+    <rect x="440" y="300" width="90" height="90"/>
+    <rect x="200" y="430" width="90" height="90"/>
+    <rect x="440" y="430" width="90" height="90"/>
+    <rect x="660" y="420" width="110" height="80"/>
+    <rect x="810" y="420" width="110" height="80"/>
+  </g>
+  <rect x="320" y="430" width="90" height="90" fill="#f6d64a"/>
+  <rect x="660" y="540" width="110" height="80" fill="#f6d64a"/>
+  <rect x="330" y="560" width="110" height="100" fill="#121212"/>
+  <path d="M60 660 H1140" stroke="#121212" stroke-width="10" stroke-linecap="round"/>
+</svg>
