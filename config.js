@@ -60,18 +60,4 @@ window.WL_CONFIG = {
   //  brackets page highlights this team. Leave as "Home" if you use that.
   homeTeam: "Home",
 
-  // ── Where reader submissions go ──────────────────────────────────────────
-  //  Newsletter signups, staff signups, and story pitches are sent to a Google
-  //  Sheet through a Google Apps Script web app. Follow setup/README.md, then
-  //  paste the web-app URL here. It should look like:
-  //    https://script.google.com/macros/s/AKfycb.../exec
-  //
-  //  Until this is filled in, those forms do NOT silently discard what people
-  //  write — they say submissions aren't set up and offer `fallbackEmail`
-  //  instead. Leave the endpoint empty to use email only.
-  submissions: {
-    endpoint: "",                        // ← your Apps Script web-app URL
-    fallbackEmail: "",                   // ← who gets emailed if the send fails.
-                                         //    Defaults to the first contact above.
-  },
 };
