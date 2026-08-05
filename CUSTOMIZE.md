@@ -52,8 +52,8 @@ fails if you forget.
 
 ### Using your own flourish
 
-The default is a leaf branch (`media/leaf.svg`) drawn on both sides of the
-masthead. To use your school's own artwork instead:
+The default is a small diamond rule (`media/ornament.svg`) drawn on both sides
+of the masthead. To use your school's own artwork instead:
 
 1. Put your image file in the **`media/`** folder.
 2. In `config.js`, set `ornament.file` to its name.
@@ -76,7 +76,7 @@ A few things worth knowing:
   right for a leaf or a vine. Set it to `false` for a crest, a logo, or
   anything containing text — it would read backwards when flipped.
 - **`width` is all you set.** Height follows your art's own proportions, so
-  a tall crest and a wide branch both work; no need to match the leaf's shape.
+  a tall crest and a wide branch both work; no need to match the default's shape.
 - **SVG is sharpest** (it stays crisp on retina screens), but PNG, JPG, WEBP,
   and AVIF all work.
 - **To remove the flourish entirely**, set `file: ""`.
@@ -120,7 +120,7 @@ every reader sees your design.
 |--------|--------------|
 | **Save design** | Applies your changes to every page — in this browser. |
 | **Download config** | Exports the files that make it permanent for readers. |
-| **Back to the leaf** | Restores the default leaf flourish. |
+| **Back to the default** | Restores the flourish that `config.js` ships. |
 | **Remove flourish** | Masthead shows just the paper's name. |
 | **Reset everything** | Discards all Design changes and returns to `config.js`. |
 
@@ -151,7 +151,8 @@ per-browser, and where the paper's mail goes has to be the same for everyone.
 
 ### Adding content
 Stories, ads, sports, videos, puzzles, and the centerspread are managed from the
-**Editor dashboard** (`editor.html`). The paper ships blank — add your own. In a
+**Editor dashboard** (`editor.html`). The paper ships with sample content you
+replace or delete — see "Sample content" in the README. In a
 Finalsite deployment, editor access is granted by an administrator through the
 school login (see the notes in `auth.js`); in the standalone template, use the
 "Editor preview" link to try the dashboards.

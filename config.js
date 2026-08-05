@@ -2,7 +2,7 @@
 //  ►►► BRAND CONFIG — EDIT THIS ONE FILE TO MAKE THE PAPER YOUR SCHOOL'S. ◄◄◄
 //
 //  Everything below is applied across every page by brand.js: the masthead
-//  name, the school name and tagline, the colors, the leaf flourish, the
+//  name, the school name and tagline, the colors, the masthead flourish, the
 //  favicon, and the footer contacts. You do not need to touch any other file.
 // ============================================================================
 window.WL_CONFIG = {
@@ -34,7 +34,7 @@ window.WL_CONFIG = {
   //
   //  Set `file: ""` to remove the flourish entirely.
   ornament: {
-    file: "media/leaf.svg",   // ← your file, e.g. "media/my-school-crest.svg"
+    file: "media/ornament.svg", // ← your file, e.g. "media/my-school-crest.svg"
     width: 72,                // rendered width in px (height follows your art)
     mirror: true,             // flip the right-hand copy to face inward.
                               //   Set false for art with text or a crest in it,
