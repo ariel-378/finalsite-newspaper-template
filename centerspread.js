@@ -1,5 +1,5 @@
 // ============================================================================
-//  CENTERSPREAD CONTENT — the print-edition pieces shown on centerspread.html.
+//  CENTERSPREAD CONTENT — the centerspread pieces shown on centerspread.html.
 //  Editors manage these from the "Centerspread" tab in the editor dashboard;
 //  this file is just the shipped starting content (like articles.js).
 //
@@ -52,20 +52,19 @@ window.WL_CENTERSPREAD = {
       },
     },
     {
-      id: "print-edition-linocut",
+      id: "courtyard-linocut",
       type: "image",
-      kicker: "From the Print Edition",
+      kicker: "Centerspread Art",
       title: "Courtyard, 7:15 p.m.",
       byline: "By The Art Staff",
       intro:
-        "An image piece carries a painting, a photo, or a scanned print puzzle on its own — no article attached. " +
-        "This one ran across the middle of the May print edition.",
+        "An image piece carries a painting, a photo, or a scanned drawing on its own — no article attached.",
       image: "media/art-centerspread-print.svg",
       alt: "A print-style illustration of the school courtyard at dusk, with the science wing, a tree, and an empty bike rack",
     },
   ],
 
-  // Which interactive puzzles appear below the print pieces. true shows,
+  // Which interactive puzzles appear below the centerspread pieces. true shows,
   // false hides. Editors toggle these from the Centerspread tab.
   puzzles: {
     crossword: true,
