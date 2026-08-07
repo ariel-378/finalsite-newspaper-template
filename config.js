@@ -60,4 +60,17 @@ window.WL_CONFIG = {
   //  brackets page highlights this team. Leave as "Home" if you use that.
   homeTeam: "Home",
 
+  // ── Where newsletter signups go ──────────────────────────────────────────
+  //  The Subscribe link in the utility bar collects an email (and optional
+  //  phone) and appends it to a Google Sheet through a Google Apps Script web
+  //  app. Follow setup/README.md, then paste the web-app URL here:
+  //    https://script.google.com/macros/s/AKfycb.../exec
+  //
+  //  Until this is filled in, the form does NOT silently discard addresses —
+  //  it says signups aren't set up and offers `fallbackEmail` instead.
+  submissions: {
+    endpoint: "",                        // ← your Apps Script web-app URL
+    fallbackEmail: "",                   // ← who gets emailed if the send fails.
+                                         //    Defaults to the first contact above.
+  },
 };
