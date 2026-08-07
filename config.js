@@ -68,9 +68,15 @@ window.WL_CONFIG = {
   //
   //  Until this is filled in, the form does NOT silently discard addresses —
   //  it says signups aren't set up and offers `fallbackEmail` instead.
+  //
+  //  Editors can fill all of this in from the Newsletter panel of the Brand
+  //  design tab and download the resulting config.js, rather than editing here.
   submissions: {
+    enabled: true,                       // false removes the Subscribe button entirely
     endpoint: "",                        // ← your Apps Script web-app URL
     fallbackEmail: "",                   // ← who gets emailed if the send fails.
                                          //    Defaults to the first contact above.
+    sheetUrl: "",                        // ← your Subscribers Sheet. Editors only —
+                                         //    it is never shown to readers.
   },
 };
